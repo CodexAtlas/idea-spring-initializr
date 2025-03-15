@@ -7,11 +7,16 @@
         <version>3.4.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.example</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>boot3-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
+    <packaging>pom</packaging>
     <description>Demo project for Spring Boot</description>
+    <modules>
+        <module>boot3-demo-02</module>
+        <module>boot3-demo-03</module>
+    </modules>
     <properties>
         <java.version>17</java.version>
         <mysql.version>8.0.33</mysql.version>
@@ -28,7 +33,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
         </dependency>
         <!--添加mybatis plus 依赖-->
         <dependency>
@@ -41,13 +50,6 @@
                     <artifactId>mybatis-spring</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
-
-        <!-- 添加MySQL依赖 -->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>${mysql.version}</version>
         </dependency>
     </dependencies>
     <build>

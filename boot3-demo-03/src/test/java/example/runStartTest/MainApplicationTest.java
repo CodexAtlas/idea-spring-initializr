@@ -1,14 +1,16 @@
-package com.example.demo;
+package example.runStartTest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureJdbc;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-@SpringBootTest
-class DemoApplicationTests {
+@SpringBootTest(classes = MainApplicationTest.class)
+@AutoConfigureJdbc
+public class MainApplicationTest {
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
