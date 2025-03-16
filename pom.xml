@@ -16,6 +16,7 @@
     <modules>
         <module>boot3-demo-02</module>
         <module>boot3-demo-03</module>
+        <module>boot3-demo-springDataJpa</module>
     </modules>
     <properties>
         <java.version>17</java.version>
