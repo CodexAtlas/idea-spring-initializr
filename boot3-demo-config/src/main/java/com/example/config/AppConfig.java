@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingClass;
 import org.springframework.context.annotation.Bean;
 
-@ConditionalOnClass(name="org.h2.jdbc.JdbcBatchUpdateException")// 条件配置类，当类加载时，会判断当前类是否加载，如果加载了，则加载当前类，否则不加载
+//@ConditionalOnClass(name="org.h2.jdbc.JdbcBatchUpdateException")// 条件配置类，当类加载时，会判断当前类是否加载，如果加载了，则加载当前类，否则不加载
 @SpringBootConfiguration // 配置类, 相当于xml配置文件，用来配置bean，启动时加载
 public class AppConfig {
     @Bean
