@@ -4,24 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b4c80c2-8862-4cc8-8f91-b9f348a3521e" name="Changes" comment="reade.md">
-      <change afterPath="$PROJECT_DIR$/boot3-demo-02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot3-demo-02/src/main/java/com/example/testport/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot3-demo-02/src/main/java/com/example/testport/controller/helloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot3-demo-03/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot3-demo-03/src/main/java/com/example/runStart/controller/hello1Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot3-demo-03/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot3-demo-03/src/test/java/example/runStartTest/MainApplicationTest.java" afterDir="false" />
+    <list default="true" id="6b4c80c2-8862-4cc8-8f91-b9f348a3521e" name="Changes" comment="loading AutoConfig">
+      <change afterPath="$PROJECT_DIR$/boot3-demo-config/src/main/java/com/example/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-demo-config/src/main/java/com/example/controller/SaveUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-demo-config/src/main/java/com/example/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-demo-config/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot3-demo-config/src/main/java/com/example/AppConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot3-demo-config/src/main/java/com/example/AppConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot3-demo-config/src/main/java/com/example/contorller/TestRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot3-demo-config/src/main/java/com/example/controller/TestRedis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot3-demo-config/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot3-demo-config/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot3-demo-springDataJpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot3-demo-springDataJpa/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/DemoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot3-demo-02/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/DemoApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -62,17 +59,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.AccessingDataJpaApplication.executor": "Run",
+    "Application.AppConfigApplication.executor": "Run",
     "Application.DemoApplication.executor": "Run",
     "Application.Main.executor": "Run",
-    "Application.Main2Application.executor": "Run",
-    "Application.MainApplication.executor": "Run",
+    "Application.Main2Application.executor": "Coverage",
+    "Application.MainApplication.executor": "Debug",
     "Application.RunStartApplication.executor": "Run",
     "Application.com.example.testport.MainApplication.executor": "Run",
     "JUnit.DemoApplicationTests.testDatabaseConnection.executor": "Run",
     "JUnit.MainApplicationTest.executor": "Run",
+    "JUnit.MainApplicationTest.testDatabaseConnection (1).executor": "Run",
     "JUnit.MainApplicationTest.testDatabaseConnection.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.boot3-demo [clean].executor": "Run",
+    "Maven.boot3-demo [compile].executor": "Run",
+    "Maven.boot3-demo [package].executor": "Run",
     "Maven.demo [compile].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -80,27 +82,30 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Study/springWorkspace/idea-spring-initializr/boot3-demo-03/src/test/java",
+    "last_opened_file_path": "D:/Study/springWorkspace/idea-spring-initializr/boot3-demo-config/src/main/resources",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Study/springWorkspace/idea-spring-initializr/boot3-demo-config/src/main/java/com/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propCompiler"
+    "settings.editor.selected.configurable": "project.propCompiler",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\springWorkspace\idea-spring-initializr\boot3-demo-config\src\main\resources" />
       <recent name="D:\Study\springWorkspace\idea-spring-initializr\boot3-demo-03\src\test\java" />
       <recent name="D:\Study\springWorkspace\idea-spring-initializr\boot3-demo-03\src\main\resources" />
       <recent name="D:\Study\springWorkspace\idea-spring-initializr\boot3-demo-01\src\main\resources" />
       <recent name="D:\Study\springWorkspace\idea-spring-initializr\boot3-demo-02\src\main\resources" />
-      <recent name="D:\Study\springWorkspace\idea-spring-initializr\boot3-demo-02\src\main\java\com\example\testport" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Study\springWorkspace\idea-spring-initializr\boot3-demo-config\src\main\resources" />
+      <recent name="D:\Study\springWorkspace\idea-spring-initializr\boot3-demo-config\src\main" />
       <recent name="D:\Study\springWorkspace\idea-spring-initializr\boot3-demo-01\src\main\java\com\example\runStart" />
       <recent name="D:\Study\springWorkspace\idea-spring-initializr\boot3-demo-01\src\main\java\com\example" />
       <recent name="D:\Study\springWorkspace\idea-spring-initializr\boot3-demo-01" />
-      <recent name="D:\Study\springWorkspace\idea-spring-initializr\boot3-demo-01\src\test\java" />
-      <recent name="D:\Study\springWorkspace\idea-spring-initializr\boot3-demo-01\src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.demo" />
@@ -110,7 +115,33 @@
       <recent name="com.example.runStart.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainApplicationTest.testDatabaseConnection">
+  <component name="RunManager" selected="Application.AppConfigApplication">
+    <configuration name="AccessingDataJpaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.AccessingDataJpaApplication" />
+      <module name="boot3-demo-springDataJpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppConfigApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.AppConfigApplication" />
+      <module name="boot3-demo-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main2Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Main2Application" />
       <module name="boot3-demo-03" />
@@ -124,20 +155,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunStartApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.runStart.RunStartApplication" />
-      <module name="boot3-demo-01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.runStart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.example.testport.MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.testport.MainApplication" />
       <module name="boot3-demo-02" />
       <extension name="coverage">
@@ -150,31 +168,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainApplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainApplicationTest.testDatabaseConnection (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boot3-demo-03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.runStartTest.*" />
+          <option name="PATTERN" value="com.example.runStart.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="example.runStartTest" />
-      <option name="MAIN_CLASS_NAME" value="example.runStartTest.MainApplicationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainApplicationTest.testDatabaseConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot3-demo-03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.runStartTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="example.runStartTest" />
-      <option name="MAIN_CLASS_NAME" value="example.runStartTest.MainApplicationTest" />
+      <option name="PACKAGE_NAME" value="com.example.runStart" />
+      <option name="MAIN_CLASS_NAME" value="com.example.runStart.MainApplicationTest" />
       <option name="METHOD_NAME" value="testDatabaseConnection" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -194,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainApplicationTest.testDatabaseConnection" />
-        <item itemvalue="JUnit.MainApplicationTest" />
+        <item itemvalue="Application.AppConfigApplication" />
+        <item itemvalue="Application.AccessingDataJpaApplication" />
+        <item itemvalue="Application.MainApplication" />
         <item itemvalue="Application.Main2Application" />
-        <item itemvalue="Application.com.example.testport.MainApplication" />
-        <item itemvalue="Application.RunStartApplication" />
+        <item itemvalue="JUnit.MainApplicationTest.testDatabaseConnection (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -210,6 +213,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741013356367</updated>
+      <workItem from="1742092952142" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="init project and connected mysql">
       <option name="closed" value="true" />
@@ -235,7 +239,63 @@
       <option name="project" value="LOCAL" />
       <updated>1741908181473</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="更改工程结构">
+      <option name="closed" value="true" />
+      <created>1742055773969</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742055773969</updated>
+    </task>
+    <task id="LOCAL-00005" summary="启动类默认扫描规则测试">
+      <option name="closed" value="true" />
+      <created>1742056199633</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742056199633</updated>
+    </task>
+    <task id="LOCAL-00006" summary="启动类默认扫描规则测试">
+      <option name="closed" value="true" />
+      <created>1742056284015</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742056284015</updated>
+    </task>
+    <task id="LOCAL-00007" summary="springDataJpa">
+      <option name="closed" value="true" />
+      <created>1742111739084</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742111739084</updated>
+    </task>
+    <task id="LOCAL-00008" summary="springDataJpa">
+      <option name="closed" value="true" />
+      <created>1742118946340</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742118946340</updated>
+    </task>
+    <task id="LOCAL-00009" summary="AutoConfigApplication">
+      <option name="closed" value="true" />
+      <created>1742128166348</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742128166348</updated>
+    </task>
+    <task id="LOCAL-00010" summary="loading AutoConfig">
+      <option name="closed" value="true" />
+      <created>1742230374287</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1742230374287</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,6 +329,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project and connected mysql" />
     <MESSAGE value="reade.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="reade.md" />
+    <MESSAGE value="更改工程结构" />
+    <MESSAGE value="启动类默认扫描规则测试" />
+    <MESSAGE value="springDataJpa" />
+    <MESSAGE value="AutoConfigApplication" />
+    <MESSAGE value="loading AutoConfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="loading AutoConfig" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/idea_spring_initializr$Main2Application.ic" NAME="Main2Application Coverage Results" MODIFIED="1742127539816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.example.*</FILTER>
+    </SUITE>
   </component>
 </project>

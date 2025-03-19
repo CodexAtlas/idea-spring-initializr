@@ -2,16 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="boot3-demo-02" />
+        <module name="boot3-demo-config" />
         <module name="boot3-demo-03" />
+        <module name="boot3-demo-springDataJpa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="boot3-demo-01" target="17" />
+      <module name="boot3-demo-04" target="17" />
       <module name="boot3-demo03" target="17" />
       <module name="untitled" target="17" />
     </bytecodeTargetLevel>
@@ -21,6 +25,9 @@
       <module name="boot3-demo-01" options="" />
       <module name="boot3-demo-02" options="-parameters" />
       <module name="boot3-demo-03" options="-parameters" />
+      <module name="boot3-demo-04" options="-parameters" />
+      <module name="boot3-demo-config" options="-parameters" />
+      <module name="boot3-demo-springDataJpa" options="-parameters" />
       <module name="demo" options="" />
       <module name="untitled" options="-parameters" />
     </option>

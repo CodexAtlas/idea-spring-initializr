@@ -1,4 +1,4 @@
-package com.example.contorller;
+package com.example.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
@@ -11,7 +11,7 @@ public class TestRedis {
     @Autowired
     StringRedisTemplate stringRedisTemplate;
 
-    @RequestMapping(value = "redis", method = {RequestMethod.GET, RequestMethod.POST})
+    @RequestMapping(value = "/redis", method = {RequestMethod.GET, RequestMethod.POST})
     public String createRedis() {
         Long add = stringRedisTemplate.opsForSet().add("sex", "1");
         stringRedisTemplate.opsForValue().set("name", "dog");

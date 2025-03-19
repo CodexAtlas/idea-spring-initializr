@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/boot3-demo-01/pom.xml" />
+        <option value="$PROJECT_DIR$/boot3-demo-04/pom.xml" />
         <option value="$PROJECT_DIR$/boot3-demo03/pom.xml" />
       </set>
     </option>
