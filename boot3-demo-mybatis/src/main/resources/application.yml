@@ -1,0 +1,21 @@
+server:
+  port: 8085
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.153.128:3306/payment_project
+    username: springBoot
+    password: springBoot
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  # 驼峰命名，数据库字段转为驼峰命名
+  configuration:
+    map-underscore-to-camel-case: true
+#mybatis打印日志
+logging:
+  level:
+    com.example.mapper: trace

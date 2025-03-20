@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b4c80c2-8862-4cc8-8f91-b9f348a3521e" name="Changes" comment="loading AutoConfig">
-      <change afterPath="$PROJECT_DIR$/boot3-demo-config/src/main/java/com/example/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot3-demo-config/src/main/java/com/example/controller/SaveUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot3-demo-config/src/main/java/com/example/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot3-demo-config/src/main/resources/logback.xml" afterDir="false" />
+    <list default="true" id="6b4c80c2-8862-4cc8-8f91-b9f348a3521e" name="Changes" comment="yml file and connected db">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-demo-mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-demo-mybatis/src/main/java/com/example/MyBatisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-demo-mybatis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-demo-mybatis/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot3-demo-config/src/main/java/com/example/AppConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot3-demo-config/src/main/java/com/example/AppConfigApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot3-demo-config/src/main/java/com/example/contorller/TestRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot3-demo-config/src/main/java/com/example/controller/TestRedis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot3-demo-config/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot3-demo-config/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot3-demo-springDataJpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot3-demo-springDataJpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot3-demo-config/src/main/java/com/example/controller/SaveUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot3-demo-config/src/main/java/com/example/controller/SaveUserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +63,7 @@
     "Application.Main.executor": "Run",
     "Application.Main2Application.executor": "Coverage",
     "Application.MainApplication.executor": "Debug",
+    "Application.MyBatisApplication.executor": "Run",
     "Application.RunStartApplication.executor": "Run",
     "Application.com.example.testport.MainApplication.executor": "Run",
     "JUnit.DemoApplicationTests.testDatabaseConnection.executor": "Run",
@@ -82,23 +81,23 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Study/springWorkspace/idea-spring-initializr/boot3-demo-config/src/main/resources",
+    "last_opened_file_path": "D:/Study/springWorkspace/idea-spring-initializr/boot3-demo-mybatis/src/main/resources",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Study/springWorkspace/idea-spring-initializr/boot3-demo-config/src/main/java/com/example/Main.java",
+    "onboarding.tips.debug.path": "D:/Study/springWorkspace/idea-spring-initializr/boot3-demo-mybatis/src/main/java/com/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propCompiler",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\springWorkspace\idea-spring-initializr\boot3-demo-mybatis\src\main\resources" />
       <recent name="D:\Study\springWorkspace\idea-spring-initializr\boot3-demo-config\src\main\resources" />
       <recent name="D:\Study\springWorkspace\idea-spring-initializr\boot3-demo-03\src\test\java" />
       <recent name="D:\Study\springWorkspace\idea-spring-initializr\boot3-demo-03\src\main\resources" />
       <recent name="D:\Study\springWorkspace\idea-spring-initializr\boot3-demo-01\src\main\resources" />
-      <recent name="D:\Study\springWorkspace\idea-spring-initializr\boot3-demo-02\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Study\springWorkspace\idea-spring-initializr\boot3-demo-config\src\main\resources" />
@@ -115,7 +114,7 @@
       <recent name="com.example.runStart.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppConfigApplication">
+  <component name="RunManager" selected="Application.MyBatisApplication">
     <configuration name="AccessingDataJpaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.AccessingDataJpaApplication" />
       <module name="boot3-demo-springDataJpa" />
@@ -168,18 +167,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainApplicationTest.testDatabaseConnection (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot3-demo-03" />
+    <configuration name="MyBatisApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.MyBatisApplication" />
+      <module name="boot3-demo-mybatis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.runStart.*" />
+          <option name="PATTERN" value="com.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.runStart" />
-      <option name="MAIN_CLASS_NAME" value="com.example.runStart.MainApplicationTest" />
-      <option name="METHOD_NAME" value="testDatabaseConnection" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyBatisApplication" />
         <item itemvalue="Application.AppConfigApplication" />
         <item itemvalue="Application.AccessingDataJpaApplication" />
         <item itemvalue="Application.MainApplication" />
         <item itemvalue="Application.Main2Application" />
-        <item itemvalue="JUnit.MainApplicationTest.testDatabaseConnection (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742230374287</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="yml file and connected db">
+      <option name="closed" value="true" />
+      <created>1742392911087</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1742392911087</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -334,7 +338,19 @@
     <MESSAGE value="springDataJpa" />
     <MESSAGE value="AutoConfigApplication" />
     <MESSAGE value="loading AutoConfig" />
-    <option name="LAST_COMMIT_MESSAGE" value="loading AutoConfig" />
+    <MESSAGE value="yml file and connected db" />
+    <option name="LAST_COMMIT_MESSAGE" value="yml file and connected db" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/boot3-demo-mybatis/src/main/java/com/example/MyBatisApplication.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/idea_spring_initializr$Main2Application.ic" NAME="Main2Application Coverage Results" MODIFIED="1742127539816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
